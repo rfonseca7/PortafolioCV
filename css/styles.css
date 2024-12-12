@@ -1,0 +1,211 @@
+ /* styles.css */
+.body {
+    background-image: url('img/fondo.jpg');
+    background-size: 100px 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+    /* Encabezado */
+    header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    }
+
+    /* Navegación */
+    nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+    nav li {
+    display: inline-block;
+    margin: 0 10px;
+    }
+
+    nav a {
+    color: rgb(8, 1, 68);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+    color: #e74c3c;
+    }
+
+     /* Botón */
+    .btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    }
+
+    #sobre-mi {
+    padding: 20px;
+    text-align: center;
+    }
+
+    /* Habilidades */
+    #habilidades {
+        padding: 20px;
+        text-align: center;
+    }
+
+
+    .cuadricula {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    }
+
+    .celda {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    }
+
+    /* FORMACION*/
+
+    #formacion {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .accordion {
+    border: 1px solid #ccc;
+    padding: 20px;
+    }
+
+    .accordion-item {
+    border-bottom: 1px solid #ccc;
+    }
+
+    .accordion-header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    cursor: pointer;
+    }
+
+    .accordion-link {
+    text-decoration: none;
+    color: #333;
+    }
+
+    .accordion-body {
+    display: none;
+    }
+
+    .accordion-item:hover .accordion-header,
+    .accordion-item.active .accordion-header {
+    background-color: #e0e0e0;
+    }
+
+    .accordion-item.active .accordion-body {
+    display: block;
+    }
+
+
+
+    /*EXPERIENCIA*/
+
+    #experiencia {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+    .experience-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    margin-bottom: 20px;
+    }
+
+    .experience-item h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    }
+
+    .experience-item p {
+    margin: 5px 0;
+    }
+
+    .description {
+    margin-top: 10px;
+    }
+
+
+    /*CONTACTO*/
+
+    #contacto {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .whatsapp-button {
+    display: inline-block;
+    background-color: #25d366;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    }
+
+    .whatsapp-button:hover {
+    background-color: #1da1f2;
+    }
+
+
+
+    /*FOOTER*/
+
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+
+    .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+    .social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+    }
+
+    .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .social-icons a:hover {
+    color: #ccc;
+    }
+
